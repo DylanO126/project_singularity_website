@@ -38,7 +38,7 @@ def channel_scan_for_keyword(keyword="singularity"):
                             add_video(session, v["videoId"], v["title"], v["publishedAt"], ch.id)
                             logging.info(f"Saved video: {v['title']}")
                             video_url = f"https://youtu.be/{v['videoId']}"
-                            send_email_alert(v["title"], video_url, ch.name)
+                            #send_email_alert(v["title"], video_url, ch.name)
                         except Exception as e:
                             logging.error(f"Failed to save video {v['title']}: {e}")
             except Exception as e:

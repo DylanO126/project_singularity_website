@@ -47,7 +47,7 @@ for v in page_videos:
     st.image(thumbnail_url, width=320)
     st.markdown(f"""
     ### [{v.title}](https://youtu.be/{v.id})
-    - 📅 Published: {date_string}
+    - Published: {date_string}
     - Channel: {v.channel.name}
     - Channel Link: {channel_url}
     ---

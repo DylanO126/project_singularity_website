@@ -1,0 +1,16 @@
+# Ignore database and environment files
+videos.db
+channels.db
+.env
+
+# Ignore Python cache and logs
+__pycache__/
+*.log
+
+# Ignore Streamlit config and history
+.streamlit/
+.history
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
